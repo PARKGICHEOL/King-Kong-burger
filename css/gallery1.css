@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+.slider {
+	width: 100%;
+	margin: 100px auto;
+}
+.slider .slick-slide> div{
+	margin: 20px;
+}
+.slider .slick-slide div img{
+	display: block;
+	width: 100%;
+}
+
+/* 가운데 박스 꾸미기 */
+.slider .slick-current> div{
+	margin: 10px 10px;
+	transition: all 1s;
+}
+
+
+/*이동버튼 꾸미기*/
+.slider .slick-prev:before, 
+.slider .slick-next:before{
+	content:'';/*원래 버튼 없애기*/
+}
+.slider .slick-prev, 
+.slider .slick-next{
+	width:27px;
+	height:50px;
+}
+.slider .slick-prev, .slider .slick-next{width: 0px;
+height: 0px;}
+.slick-next{right: 0px;}
+
+
+

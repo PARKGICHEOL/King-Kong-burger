@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>킹콩버거</title>
+  <style>
+    @font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  </style>
+  <!-- 슬라이드 css -->
+	<link href="css/swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+	<link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+   <!-- 갤러리 css -->
+   <link href="css/slick.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+   <link href="css/slick-theme.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+   <link href="css/gallery1.css" rel="stylesheet" type="text/css"><!-- 디자인에 맞게 수정 -->
+  <link href="images/Fabicon2.png" rel="icon" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="css/tab.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+
+
+<body>
+  <header><!--해더-->
+    <div class="header_in">
+      <div class="header_in1">
+       <h6><a href="#"><img src="images/LOGO.png" alt="로고사진"></a></h6>
+     </div>
+     <div class="header_in2">
+    <ul>
+      <li><a href="#menu">메뉴소개</a></li>
+      <li><a href="#referral">회사소개</a></li>
+      <li><a href="#Startups">창업안내</a></li>
+      <li><a href="#event">커뮤니티</a></li>
+    </ul>
+  </div>
+  </div>
+  </header><!--해더-->
+
+  <div class="banner"><!--배너-->
+    <img src="images/banner.png" alt="킹치즈버거 사진">
+    <div class="button">
+
+      <div class="buttom_m">
+        <img src="images/banner_m.png" alt="">
+      </div>
+
+      <div><a href="#referral" class="button_1"></a></div>
+      <div><a href="#Startups" class="button_2"></a></div>
+    </div>
+  </div><!--배너-->
+
+  <div class="menu" id="menu"><!--메뉴-->
+    <h6><img src="images/Thetitle_1.png" alt="킹콩버거 전체메뉴" class="menu_the"></h6>
+    <div class="menu_3">
+      <ul>
+        <li><img src="images/Menu_1.png" alt="킹콩버거사진">
+        <div class="menu_2">
+          <h2>킹콩버거</h2>
+          <h3>KingKong Burger</h3>
+          <p>킹콩 오리지널 버거로 신선한<br>
+            고기의 맛을 좀더 강조한 버거 메뉴<br>
+            Regular <span>7,900원</span> / Large <span>8,900원</span></p>
+        </div>
+        </li>
+        <li><img src="images/Menu_2.png" alt="더블치킨치즈버거사진">
+          <div class="menu_2">
+            <h2>더블치킨치즈버거</h2>
+            <h3>Chicken Cheeseburger</h3>
+            <p>순살패티와 치킨패티의 완벽한 조합<br>
+              순살 닭다리살과 특제소스의 꿀조합<br>
+              Regular <span>8,500원</span> / Large<span>9,900원</span></p>
+          </div>
+        </li>
+        <li><img src="images/Menu_3.png" alt="머쉬룸버거사진">
+          <div class="menu_2">
+            <h2>머쉬룸버거</h2>
+            <h3>Mushroom Burger</h3>
+            <p>버섯향이 입안에 가득<br>
+              풍미 가득 머쉬룸버거<br>
+              Regular <span>5,900원</span> / Large <span>6,900원</span></p>
+          </div>
+        </li>
+        <li><img src="images/Menu_4.png" alt="불고기치즈버거사진">
+          <div class="menu_2">
+            <h2>불고기치즈버거</h2>
+            <h3>Bulgogi Cheeseburger</h3>
+            <p>수제패티와 불고기 소스가 어우러진<br>
+              한국 전통의 맛<br>
+              Regular <span>3,900원</span> / Large <span>4,900원</span></p>
+          </div>
+        </li>
+        <li><img src="images/Menu_5.png" alt="넓적새우버거사진">
+          <div class="menu_2">
+            <h2>넓적새우버거</h2>
+            <h3>Shrimp Burger</h3>
+            <p>킹콩버거의 특별 넓적새우버거<br>
+              통통터지는 통새우살이 한 가득<br>
+              Regular <span>7,900원</span> / Large <span>8,900원</span></p>
+          </div>
+        </li>
+        <li><img src="images/Menu_6.png" alt="베이컨버거사진">
+          <div class="menu_2">
+            <h2>베이컨버거</h2>
+            <h3>Bacon Burger</h3>
+            <p>체다치즈와 베이컨의 꿀조합<br>
+              풍미 가득 베이컨버거<br>
+              Regular <span>7,500원</span> / Large <span>8,500원</span></p>
+          </div>
+        </li>
+        <li><img src="images/Menu_7.png" alt="킹콩에그버거사진">
+          <div class="menu_2">
+            <h2>킹콩에그버거</h2>
+            <h3>KingKong Egg Burger</h3>
+            <p>촉촉한 반숙계란과 수제패티의 조합<br>
+              맛과 영양을 다 잡은 애그버거<br>
+              Regular <span>6,900원</span> / Large <span>7,900원</span></p>
+          </div>
+        </li>
+        <li><img src="images/Menu_8.png" alt="프렌치프라이 사진">
+          <div class="menu_2">
+            <h2>프렌치프라이</h2>
+            <h3>French Fries</h3>
+            <p>바삭함이 일품인 오리지널<br>
+               프렌치 프라이<br>
+              Regular <span>>2,000원</span> / Large <span>2,800원</span></p>
+              
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu_1">
+      <ul>
+        <li><img src="images/Tomato.png" alt="토마토 사진">
+        <h2>신선한 야채</h2>
+        <p>가동되지 않은 신선한 야채를 <br>
+          매일 아침에 공수하여 고객님들께 <br>
+          건강한 수제버거를 드리고 있습니다.</p>
+        </li>
+        <li><img src="images/Meat.png" alt="고기 사진">
+          <h2>수제패티</h2>
+          <p>연구를 통한 패티개발로 고객님의 <br>
+            니즈를 충족시켜 드리는 햄버거를 <br>
+            만들고 있습니다.</p>
+        </li>
+        <li><img src="images/Cheese.png" alt="치즈 사진">
+          <h2>전통치즈</h2>
+          <p>치즈의 풍미를 어려워하시는 분들도 <br>
+            가볍게 즐길 수 있는 미국 전통 치즈를 <br>
+            사용하여 미국 본연의 맛을 표현 했습니다.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="referral" >
+ <h6><img src="images/Thetitle_2.png" alt="킹콩버거소개"></h6>
+  </div>
+
+<div class="referral_k" id="referral">
+<div class="referral_ba1"> 
+  <div class="referral_3">
+    <h1>King Kong Burger는</h1>
+    <p>꾸준한 연구와 개발로 고객만족을 위해 <br>
+      끊임없이 노력해 왔습니다.<br>
+      다양하고 높아지는 소비자 니즈에 발 맞춰 가기 위해 <br>
+      기존 패스트푸드 햄버거의 조리방식의 틀을 깨고 <br>
+      매장에서 100% 소고기 패티를 직접 구어내어 <br>
+      소비자의 다양한 니지를<br>
+      충족시켜 드리고 있습니다.</p>
+  </div>
+</div>
+<img src="images/referral_m1.png" alt="">
+<div class="referral_ba2">
+  <div class="referral_4">
+    <h1>King Kong Burger는</h1>
+    <p>킹콩 이미지에 걸맞는 푸짐한 햄버거를 제공합니다.<br>
+      미국 킹콩의 이미지를 수제버거에 현상화 하였으며,<br>
+      로고명에 치즈가 흘러 내려가는 효과를 주어,<br>
+      수제버거 전문점의 이미지를 강조 했습니다.</p>
+      <img src="images/color.png" alt="컬러정보" class="referral_color">
+      <img src="images/color2.png" alt="컬러정보">
+  </div>
+</div>
+<img src="images/referral_m2.png" alt="">
+</div>
+
+<div class="Startups" id="Startups">
+  <h6><img src="images/Thetitle_3.png" alt="솔직한 정보"></h6>
+</div>
+
+  <div>
+    <div class="Startups_ba1"><!--배경-->
+      <div class="Startups_wi">
+      <div class="Startups_tit"><!--제목-->
+        <h6><img src="images/Startups_Thetitle.png" alt="제목"></h6>
+      </div>
+      <div class="Startups_img1"><!--내용-->
+        <ul>
+          <li><img src="images/Startups_1.png" alt="거품 없는 창업시작
+            10평대 소형 매장으로 
+부담없는 개설비용"></li>
+          <li><img src="images/Startups_2.png" alt="메뉴
+            미국전통버거의 풍기를 
+느낄 수 있는 가성비 햄버거"></li>
+          <li><img src="images/Startups_3.png" alt="안정적인 물류
+            중간유통과정을 뺀 다이렉트로 
+가맹점에 납품 배송"></li>
+          <li><img src="images/Startups_4.png" alt="소통
+            매년 신메뉴 개발 연구, 점주님과 
+소통할 수 있는 공간제공"></li>
+        </ul>
+        
+      </div>
+    </div>
+    </div>
+
+<!--tab-->
+<div class="tab">
+  <div class="tab_wi">
+    <div class="tabnav_0">
+  <ul class="tabnav">
+    <li><a href="#tab01" class="tab_1">창업 경쟁력</a></li>
+    <li><a href="#tab02" class="tab_2">개설절차</a></li>
+  </ul>
+</div>
+
+  <div class="tabcontent">
+    <div id="tab01">
+      <div class="tab_a">
+        <div class="tab_a1">
+      <img src="images/Startups2_1.png" alt="집 아인콘 사진">
+    </div>
+    <div class="tab_a2">
+      <ul>
+        <li>·10평대 소형 매장으로 부담없는 개설비용</li>
+        <li>·인테리어에서 본사 수익x</li>
+        <li>·창업후 4달 집중 관리</li>
+      </ul>
+    </div>
+      </div>
+      
+      <div class="tab_b">
+      <div>
+      <img src="images/Startups2_2.png" alt="사람 아이콘 사진">
+    </div>
+      <ul>
+        <li>·이국적 감성의 분위기와 맛으로 높은 재방문, 재구매율</li>
+        <li>·비쥬얼 끝판왕 이미지로 SNS고객 상승</li>
+      </ul>
+    </div>
+    </div>
+
+    <div id="tab02">
+      <ul class="tab_c">
+        <li><img src="images/Startups3_1.png" alt="
+          창업상담
+          전화 및 웹사이트를 
+          통한 문의후
+          상담 내방 및 가명점 견학"></li>
+        <li><img src="images/Startups3_2.png" alt="
+          상권분석
+          현장방문,입지 및 
+          상권조사, 타당성검토"></li>
+        <li><img src="images/Startups3_3.png" alt="
+          가맹계약
+          가맹점과 본사 계약체결"></li>
+        <li><img src="images/Startups3_4.png" alt="
+          매장실측
+          인테리어 실측"></li>
+      </ul>
+      <ul>
+        <li><img src="images/Startups3_5.png" alt="
+          인테리어 시공
+          간판, 가구, 주방설비"></li>
+        <li><img src="images/Startups3_6.png" alt="
+          교육
+          메뉴실습, 기기조작법, 
+          서비스교육
+          "></li>
+        <li><img src="images/Startups3_7.png" alt="
+          점검 및 오픈준비
+          최종집기 점검, 가오픈실시, 
+          홍보물제공
+          "></li>
+        <li><img src="images/Startups3_8.png" alt="
+          그랜드오픈
+          본사 슈퍼바이저 현장지원 
+          사후관리"></li>
+      </ul>
+
+      <div class="tab_m">
+        <div class="swiper-container slide">
+		      <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/Startups4.png" alt="배너1"></div>
+            <div class="swiper-slide"><img src="images/Startups4_1.png" alt="배너2"></div>
+		      </div>
+	     </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+  <div class="event" id="event">
+    <img src="images/Thetitle_4.png" alt="솔직한 정보">
+  </div>
+
+  <div class="event_a">
+    <ul class="event_img" >
+      <li><a href="#"><img src="images/Event_1.png" alt="인스타그램 포토리뷰 이벤트"></a></li>
+      <li><a href="#"><img src="images/Event_2.png" alt="킹콩데이 할인 이벤트"></a></li>
+      <li><a href="#"><img src="images/Event_3.png" alt="킹콩에그버거 출시 이벤트"></a></li>
+    </ul>
+    <ul class="event_t">
+      <li>[진행중] 인스타그램 포토리뷰 이벤트<br>
+        상시이벤트</li>
+      <li>[진행중] 킹콩데이 할인 이벤트<br>
+          2022.07 ~ 07.07</li>
+      <li>[진행중] 킹콩에그버거 출시 이벤트<br>
+        2022.09 ~ 10.22</li>
+    </ul>
+  </div>
+
+  <div class="event_m">
+    <section class="regular slider">
+      <div>
+        <a href="#"><img src="images/Event_1.png" alt="인스타그램 포토리뷰 이벤트
+          상시이벤트">
+          [진행중] 인스타그램 포토리뷰 이벤트<br>
+          상시이벤트
+        </a>
+      </div>
+      <div>
+        <a href="#"><img src="images/Event_2.png" alt="킹콩데이 할인 이벤트">
+          [진행중] 킹콩데이 할인 이벤트<br>
+          2022.07 ~ 07.07
+        </a>
+      </div>
+      <div>
+        <a href="#"><img src="images/Event_3.png" alt="킹콩에그버거 출시 이벤트">
+          [진행중] 킹콩에그버거 출시 이벤트<br>
+          2022.09 ~ 10.22
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer">
+    <div class="footer_a">
+      <h5><a href="#"><img src="images/footer_logo.png" alt="풋터 로고사진"></a></h5>
+      <div class="footer_b">
+      <ul class="footer_1">
+        <li>대표메일 : OOOO@naver.com</li>
+        <li>대표전화 : 000-0000-0000</li>
+        <li>사업자등록번호 :000-00-00000</li>
+      </ul>
+    </div>
+      <ul class="footer_1">
+        <li>창업상담 : (051)-000-0000</li>
+        <li>고객상담 : (051)-000-0000</li>
+        <li>주소: 부산시 영도구 신선동</li>
+      </ul>
+      <ul class="footer_1">
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용약관</a></li>
+      </ul>
+      <div class="footer_2">
+      <ul>
+        <li><a href="https://www.instagram.com/"><img src="images/footer_icon_1.png" alt="인스타그램"></a></li>
+        <li><a href="https://www.facebook.com/"><img src="images/footer_icon_2.png" alt="페이스북"></a></li>
+        <li><a href="https://twitter.com"><img src="images/footer_icon_3.png" alt="트위터"></a></li>
+        <li><a href="https://www.youtube.com/"><img src="images/footer_icon_4.png" alt="유튜브"></a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	<!--js-->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+	<script src="script/tab.js"></script>
+  <!-- js -->
+	<script src="script/slick.js"></script><!-- 수정X -->
+	<script src="script/gallery1.js"></script><!-- 디자인에 맞게 수정 -->
+  	<!-- 슬라이드 js -->
+	<script src="script/swiper.min.js"></script><!-- 수정X -->
+	<script src="script/slidebanner.js"></script><!--디자인에 맞게 수정-->
+</body>
+
+</html>
